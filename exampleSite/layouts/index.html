@@ -9,5 +9,6 @@
 <body>
 <h1>{{ .Title | site.Home.RenderString }}</h1>
 {{ .Content }}
+{{ partial "hugo-mod-wrap/check" . }}
 </body>
 </html>
